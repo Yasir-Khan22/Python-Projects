@@ -13,7 +13,7 @@ else:
 
 ##### Second method of doing this example.
 
-name = input('again Enter your phrase so that I tell you that it si palindrome or not:  ')
+name = input('again Enter your phrase so that I tell you that it is palindrome or not:  ')
 
 if name[::-1] == name[0:]:
     print('Yes! This is a palindrome sentence.')
