@@ -9,3 +9,13 @@ if rev == word:
     print('This is a palindrome sentence')
 else:
     print("This is not a palindrome sentence")
+
+
+##### Second method of doing this example.
+
+name = input('again Enter your phrase so that I tell you that it si palindrome or not:  ')
+
+if name[::-1] == name[0:]:
+    print('Yes! This is a palindrome sentence.')
+else:
+    print('This is not a palindrome sentence.')
