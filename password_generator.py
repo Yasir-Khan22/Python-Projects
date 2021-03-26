@@ -12,7 +12,7 @@ symbols = string.punctuation
 
 All = lower_case + upper_case + number + symbols
 
-temp = random.sample(all, length)
+temp = random.sample(All, length)
 
 password = "".join(temp)
 print(password)
