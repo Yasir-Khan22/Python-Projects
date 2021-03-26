@@ -16,3 +16,20 @@ temp = random.sample(All, length)
 
 password = "".join(temp)
 print(password)
+
+## second method of doing this project
+
+import random
+chars = 'abcdefghijklmnopqrstuvwxyz124567890ABCDEFGHIJKLMNOPRSTUVWXYZ!@#$%^&*'
+number = int(input('Number of passwords? -'))
+
+length = input('Password lenght? - ')
+length = int(length)
+
+for p in range(number):
+    password = ' '
+    for c in range(length):
+        password += random.choice(chars)
+    print(password)
+
+
